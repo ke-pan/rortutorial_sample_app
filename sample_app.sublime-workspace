@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"text",
+				"text_field"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"alli",
+				"allinchecked"
+			],
+			[
+				"cha",
+				"changeClassNone"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":q",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				":x",
+				"Set Syntax: XSL"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/work/RoR/sample_app/example_user.rb",
+		"/E/work/RoR/sample_app/app/views/layouts/application.html.erb",
+		"/E/work/RoR/sample_app/spec/requests/static_pages_spec.rb",
+		"/E/work/RoR/sample_app/app/views/static_pages/home.html.erb",
+		"/E/work/RoR/sample_app/app/helpers/application_helper.rb",
+		"/E/work/RoR/sample_app/app/views/static_pages/contact.html.erb",
+		"/E/work/RoR/sample_app/app/views/static_pages/help.html.erb",
+		"/E/work/RoR/sample_app/app/views/static_pages/about.html.erb",
+		"/E/work/RoR/sample_app/app/controllers/static_pages_controller.rb",
+		"/E/work/RoR/sample_app/config/routes.rb",
+		"/E/work/RoR/sample_app/spec/spec_helper.rb",
+		"/E/work/RoR/sample_app/app/controllers/application_controller.rb",
+		"/E/work/RoR/demo_app/app/controllers/microposts_controller.rb",
+		"/E/work/RoR/sample_app/README.rdoc",
+		"/E/work/RoR/sample_app/Gemfile",
+		"/E/work/RoR/sample_app/config/initializers/secret_token.rb",
+		"/E/work/RoR/demo_app/.gitignore",
+		"/E/work/RoR/sample_app/.gitignore",
+		"/E/work/RoR/demo_app/app/models/user.rb",
+		"/E/work/RoR/demo_app/app/models/micropost.rb",
+		"/E/work/RoR/demo_app/app/controllers/users_controller.rb",
+		"/E/work/RoR/first_app/Gemfile",
+		"/E/work/RoR/first_app/Gemfile.lock",
+		"/E/work/RoR/first_app/.gitignore",
+		"/E/work/RoR/blog/app/views/posts/edit.html.erb",
+		"/E/work/RoR/blog/app/controllers/posts_controller.rb",
+		"/E/work/RoR/blog/app/views/posts/_form.html.erb",
+		"/E/work/RoR/blog/db/migrate/20140328225323_create_posts.rb",
+		"/E/work/RoR/blog/db/schema.rb",
+		"/E/work/RoR/blog/app/controllers/comments_controller.rb",
+		"/E/work/RoR/blog/app/views/comments/_comment.html.erb",
+		"/E/work/RoR/blog/app/models/comment.rb",
+		"/E/work/RoR/blog/app/views/comments/_form.html.erb",
+		"/E/work/RoR/blog/app/views/posts/show.html.erb",
+		"/E/work/RoR/blog/app/models/post.rb",
+		"/E/work/RoR/blog/app/views/posts/_comment.html.erb",
+		"/E/work/RoR/blog/config/routes.rb",
+		"/E/work/RoR/blog/db/migrate/20140330011928_create_comments.rb",
+		"/E/work/RoR/blog/app/views/posts/index.html.erb",
+		"/E/work/RoR/blog/app/views/posts/new.html.erb",
+		"/E/work/RoR/blog/app/views/welcom/index.html.erb",
+		"/E/work/RoR/blog/app/views/home/index.html.erb",
+		"/E/work/RoR/blog/db/migrate/20140326231429_create_posts.rb",
+		"/E/work/RoR/blog/config/database.yml",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例3/超酷数码钟表/miaov.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例3/超酷数码钟表/1.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习4——展开菜单/2.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习3——评分/miaov.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习3——评分/my_style.css",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习3——评分/my.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习3——评分/my_demo.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/练习/第二课练习3——评分/miaov_style.css",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/选项卡/tab.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/选项卡/my_tab.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/选项卡/my_tab.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/淘宝商品列表/my_test.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/淘宝商品列表/my_style.css",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程案例2/淘宝商品列表/my_test.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程资料1/练习/播放列表收缩展开/miaov_style.css",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程资料1/练习/播放列表收缩展开/miaov_demo.html",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程资料1/练习/播放列表收缩展开/miaov.js",
+		"/E/work/frontend/妙味课堂/0-学前预热课程1/126记住密码提示框.html",
+		"/E/work/frontend/妙味课堂/0-学前预热课程1/换class.html",
+		"/E/work/frontend/myscript.js",
+		"/E/work/frontend/妙味课堂/资料/0-妙味课堂原创JavaScript视频教程——JS学前预热课程5集资料/课程资料1/练习/Discuz!/Discuz!.htm",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/work/frontend/妙味课堂/换class.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"post",
+			"root",
+			"index",
+			"blur",
+			"show",
+			"user_info"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								839,
+								839
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true
+}
