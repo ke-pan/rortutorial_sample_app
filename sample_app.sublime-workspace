@@ -32,10 +32,10 @@
 	"buffers":
 	[
 		{
-			"file": "spec/requests/user_pages_spec.rb",
+			"file": "spec/requests/static_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 221,
+				"buffer_size": 959,
 				"line_ending": "Unix"
 			}
 		}
@@ -96,23 +96,25 @@
 	},
 	"file_history":
 	[
+		"/E/work/RoR/sample_app/app/views/static_pages/home.html.erb",
+		"/E/work/RoR/sample_app/app/views/static_pages/help.html.erb",
+		"/E/work/RoR/sample_app/app/views/users/new.html.erb",
+		"/E/work/RoR/sample_app/config/routes.rb",
+		"/E/work/RoR/sample_app/spec/requests/user_pages_spec.rb",
 		"/E/work/RoR/sample_app/spec/requests/static_pages_spec.rb",
 		"/E/work/RoR/sample_app/spec/support/utilities.rb",
-		"/E/work/RoR/sample_app/config/routes.rb",
 		"/E/work/RoR/sample_app/app/views/layouts/application.html.erb",
 		"/E/work/RoR/sample_app/app/views/layouts/_header.html.erb",
 		"/E/work/RoR/sample_app/app/views/layouts/_footer.html.erb",
 		"/E/work/RoR/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/E/work/RoR/sample_app/app/assets/stylesheets/application.css",
 		"/E/work/RoR/sample_app/.gitignore",
-		"/E/work/RoR/sample_app/app/views/static_pages/home.html.erb",
 		"/E/work/RoR/sample_app/app/views/layouts/_shim.html.erb",
 		"/E/work/RoR/sample_app/config/application.rb",
 		"/E/work/RoR/sample_app/Gemfile",
 		"/E/work/RoR/sample_app/example_user.rb",
 		"/E/work/RoR/sample_app/app/helpers/application_helper.rb",
 		"/E/work/RoR/sample_app/app/views/static_pages/contact.html.erb",
-		"/E/work/RoR/sample_app/app/views/static_pages/help.html.erb",
 		"/E/work/RoR/sample_app/app/views/static_pages/about.html.erb",
 		"/E/work/RoR/sample_app/app/controllers/static_pages_controller.rb",
 		"/E/work/RoR/sample_app/spec/spec_helper.rb",
@@ -188,6 +190,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"base_title",
 			"visit",
 			"grayMediumLight",
 			"eaeaea",
@@ -221,18 +224,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "spec/requests/user_pages_spec.rb",
+					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 221,
+						"buffer_size": 959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								947,
+								947
 							]
 						],
 						"settings":
@@ -282,7 +285,9 @@
 								"bh_single_quote_close"
 							],
 							"color_scheme": "Packages/Color Highlighter/Monokai.tmTheme",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
