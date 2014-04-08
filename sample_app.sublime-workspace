@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pat",
+				"page_title"
+			],
+			[
 				"post",
 				"post_id"
 			],
@@ -28,18 +32,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "spec/requests/user_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/home.html.erb",
-			"settings":
-			{
-				"buffer_size": 366,
+				"buffer_size": 221,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,24 +96,31 @@
 	},
 	"file_history":
 	[
-		"/E/work/RoR/sample_app/example_user.rb",
-		"/E/work/RoR/sample_app/app/views/layouts/application.html.erb",
 		"/E/work/RoR/sample_app/spec/requests/static_pages_spec.rb",
+		"/E/work/RoR/sample_app/spec/support/utilities.rb",
+		"/E/work/RoR/sample_app/config/routes.rb",
+		"/E/work/RoR/sample_app/app/views/layouts/application.html.erb",
+		"/E/work/RoR/sample_app/app/views/layouts/_header.html.erb",
+		"/E/work/RoR/sample_app/app/views/layouts/_footer.html.erb",
+		"/E/work/RoR/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/E/work/RoR/sample_app/app/assets/stylesheets/application.css",
+		"/E/work/RoR/sample_app/.gitignore",
 		"/E/work/RoR/sample_app/app/views/static_pages/home.html.erb",
+		"/E/work/RoR/sample_app/app/views/layouts/_shim.html.erb",
+		"/E/work/RoR/sample_app/config/application.rb",
+		"/E/work/RoR/sample_app/Gemfile",
+		"/E/work/RoR/sample_app/example_user.rb",
 		"/E/work/RoR/sample_app/app/helpers/application_helper.rb",
 		"/E/work/RoR/sample_app/app/views/static_pages/contact.html.erb",
 		"/E/work/RoR/sample_app/app/views/static_pages/help.html.erb",
 		"/E/work/RoR/sample_app/app/views/static_pages/about.html.erb",
 		"/E/work/RoR/sample_app/app/controllers/static_pages_controller.rb",
-		"/E/work/RoR/sample_app/config/routes.rb",
 		"/E/work/RoR/sample_app/spec/spec_helper.rb",
 		"/E/work/RoR/sample_app/app/controllers/application_controller.rb",
 		"/E/work/RoR/demo_app/app/controllers/microposts_controller.rb",
 		"/E/work/RoR/sample_app/README.rdoc",
-		"/E/work/RoR/sample_app/Gemfile",
 		"/E/work/RoR/sample_app/config/initializers/secret_token.rb",
 		"/E/work/RoR/demo_app/.gitignore",
-		"/E/work/RoR/sample_app/.gitignore",
 		"/E/work/RoR/demo_app/app/models/user.rb",
 		"/E/work/RoR/demo_app/app/models/micropost.rb",
 		"/E/work/RoR/demo_app/app/controllers/users_controller.rb",
@@ -185,6 +188,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"visit",
+			"grayMediumLight",
+			"eaeaea",
+			"light",
+			"999",
 			"post",
 			"root",
 			"index",
@@ -208,23 +216,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "spec/requests/user_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 855,
+						"buffer_size": 221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								839,
-								839
+								206,
+								206
 							]
 						],
 						"settings":
@@ -273,79 +281,8 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/static_pages/home.html.erb",
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"color_scheme": "Packages/Color Highlighter/Monokai.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -412,6 +349,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 182.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true
 }
