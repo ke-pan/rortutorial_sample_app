@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"shou",
+				"should_not"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"passw",
+				"password_confirmation"
+			],
+			[
 				"vali",
 				"valid_address"
 			],
@@ -43,23 +55,18 @@
 			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 338,
+				"buffer_size": 404,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "require 'spec_helper'\n\ndescribe User do\n\n  before do \n    @user = User.new(name:\"Example User\", email: \"user@example.com\",\n                     password:\"foobar\", password_confirmation:\"foobar\") \n  end\n\n  subject {@user}\n\n  it {should respond_to(:name)}\n  it {should respond_to(:email)}\n  it {should respond_to(:password_digest)}\n  it {should respond_to(:password)}\n  it {should respond_to(:password_confirmation)}\n  it {should respond_to(:authenticate)}\n\n  it {should be_valid}\n\n  describe \"when name is not present\" do\n  	before {@user.name = \" \"}\n  	it {should_not be_valid}\n  end\n\n  describe \"when name is too long\" do\n  	before {@user.name = \"a\" * 51}\n  	it {should_not be_valid}\n  end\n\n  describe \"when email is not present\" do\n  	before {@user.email = \" \"}\n  	it {should_not be_valid}\n  end\n\n  describe \"when email format is valid\" do \n    it \"should be valid\" do\n      adresses = %w[user@foo.COM A_US-ER@f.b.org frst.lst@foo.jp a+b@baz.cn]\n      adresses.each do |valid_address|\n        @user.email = valid_address\n        expect(@user).to be_valid\n      end\n    end\n  end\n\n  describe \"when email format is invalid\" do \n    it \"should be invalid\" do\n      adresses = %w[user@foo,com user_at_foo.org example.user@foo.\n                     foo@bar_baz.com foo@bar+baz.com]\n      adresses.each do |invalid_address|\n        @user.email = invalid_address\n        expect(@user).not_to be_valid\n      end\n    end\n  end\n\n  describe \"when email address is already taken\" do\n    before do\n      user_with_same_email = @user.dup\n      user_with_same_email.email = @user.email.upcase\n      user_with_same_email.save\n    end\n\n    it {should_not be_valid}\n  end\n\n  describe \"when password is not preset\" do\n    before do\n      @user = User.new(name: \"Example User\", email: \"user@example.com\",\n                       password: \" \", password_confirmation: \" \")\n    end\n\n    it {should_not be_valid}\n  end\n\n  describe \"when password doesn't match confirmation\" do\n    before { @user.password_confirmation = \"mismatch\" }\n    it {should_not be_valid}\n  end\n\n  describe \"return value of authenticate method\" do\n    before {@user.save}\n    let(:found_user) {User.find_by(email: @user.email)}\n\n    describe \"with valid password\" do\n      it {should eq found_user.authenticate(@user.password)}\n    end\n\n    describe \"with invalid password\" do\n      let(:user_for_invalid_password) {found_user.authenticate(\"invalid\")}\n      it {should_not eq user_for_invalid_password}\n      specify {expect(user_for_invalid_password).to be_false}\n    end\n  end\n\n  describe \"with a password that's too short\" do\n    before {@user.password = @user.password_confirmation = \"a\" * 5}\n    it {should_not be_valid}\n  end\n\n  describe \"with email downcasing\" do\n    let(:mixed_case_email) {\"Foo@ExAmple.Com\"}\n    \n    it \"should be saved as all lower-case\" do\n      \n\n\nend\n",
 			"file": "spec/models/user_spec.rb",
+			"file_size": 2688,
+			"file_write_time": 130416485704218750,
 			"settings":
 			{
-				"buffer_size": 1453,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20140410135117_add_index_to_users_email.rb",
-			"settings":
-			{
-				"buffer_size": 118,
+				"buffer_size": 2833,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +74,7 @@
 			"file": "db/schema.rb",
 			"settings":
 			{
-				"buffer_size": 1029,
+				"buffer_size": 1062,
 				"line_ending": "Windows"
 			}
 		},
@@ -76,14 +83,6 @@
 			"settings":
 			{
 				"buffer_size": 1513,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20140410141341_add_password_digest_to_users.rb",
-			"settings":
-			{
-				"buffer_size": 129,
 				"line_ending": "Unix"
 			}
 		}
@@ -148,6 +147,8 @@
 	},
 	"file_history":
 	[
+		"/E/work/RoR/sample_app/db/migrate/20140410141341_add_password_digest_to_users.rb",
+		"/E/work/RoR/sample_app/db/migrate/20140410135117_add_index_to_users_email.rb",
 		"/E/work/RoR/sample_app/db/migrate/20140409133835_create_users.rb",
 		"/E/work/RoR/sample_app/app/helpers/application_helper.rb",
 		"/E/work/RoR/sample_app/spec/support/utilities.rb",
@@ -281,15 +282,15 @@
 					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 338,
+						"buffer_size": 404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								400,
+								400
 							]
 						],
 						"settings":
@@ -352,15 +353,15 @@
 					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1453,
+						"buffer_size": 2833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1353,
-								1353
+								2826,
+								2826
 							]
 						],
 						"settings":
@@ -415,25 +416,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "db/migrate/20140410135117_add_index_to_users_email.rb",
+					"file": "db/schema.rb",
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 1062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								0,
+								0
 							]
 						],
 						"settings":
@@ -492,76 +493,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "db/schema.rb",
-					"settings":
-					{
-						"buffer_size": 1029,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "Gemfile",
 					"settings":
 					{
@@ -572,78 +503,8 @@
 						"selection":
 						[
 							[
-								213,
-								213
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "db/migrate/20140410141341_add_password_digest_to_users.rb",
-					"settings":
-					{
-						"buffer_size": 129,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								211,
+								211
 							]
 						],
 						"settings":
@@ -759,6 +620,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true
 }
